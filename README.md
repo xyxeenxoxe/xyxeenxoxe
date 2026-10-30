@@ -11,6 +11,20 @@ I'm a cybersecurity-focused IT professional with 5+ years of experience in techn
 - Windows and Linux support
 - Incident management and technical documentation
 
+## Featured Project: Azure Sentinel Honeypot and Attack Map
+
+Built an Azure-based Windows honeypot lab to collect and investigate failed sign-in activity.
+
+- Configured an Azure Windows VM and inbound network rule to generate honeypot telemetry.
+- Reviewed Windows Security events, including failed logons (Event ID 4625), in Event Viewer and Log Analytics.
+- Connected a Log Analytics workspace to Microsoft Sentinel and configured Windows Security Events via Azure Monitor Agent (AMA) and a data collection rule (DCR).
+- Wrote KQL queries to filter failed logons and inspect timestamps, event details, source IP addresses, and account names.
+- Enriched source IP addresses with a GeoIP watchlist using `ipv4_lookup()`, then visualized locations in a Sentinel workbook attack map.
+
+**Tools:** Azure Virtual Machines, Network Security Groups, Log Analytics, Microsoft Sentinel, Azure Monitor Agent, data collection rules, KQL, Sentinel watchlists.
+
+**Lab safety:** This exercise used broad inbound access and a disabled Windows firewall to observe honeypot traffic. Those settings are for lab use only and are not appropriate for production systems.
+
 ## Tools and Platforms
 
 ServiceNow · Remedy · Zendesk · BeyondTrust · AnyDesk · Active Directory · VMware
