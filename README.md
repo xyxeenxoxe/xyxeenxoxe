@@ -11,7 +11,7 @@ I'm a cybersecurity-focused IT professional with 5+ years of experience in techn
 - Windows and Linux support
 - Incident management and technical documentation
 
-## Featured Project: Azure Sentinel Honeypot and Attack Map
+### Featured Project: [Azure Sentinel Honeypot and Attack Map](https://github.com/xyxeenxoxe/Azure-Cloud-SOC-Honeypot)
 
 Built an Azure-based Windows honeypot lab to collect and investigate failed sign-in activity.
 
